@@ -1,0 +1,124 @@
+<div class="container">
+
+    <h1>Álbum da Copa ⚽</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="messi.png">
+
+            <h3>Messi</h3>
+
+            <p>Argentina</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Álbum da Copa</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+<div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm">
+
+<h1 class="text-3xl font-bold text-center mb-6">
+⚽ Álbum da Copa
+</h1>
+
+<input
+id="email"
+type="email"
+placeholder="Email"
+class="w-full border p-3 rounded mb-3">
+
+<input
+id="password"
+type="password"
+placeholder="Senha"
+class="w-full border p-3 rounded mb-4">
+
+<button
+id="btnLogin"
+class="w-full bg-blue-500 text-white p-3 rounded mb-2">
+Entrar
+</button>
+
+<button
+id="btnCadastro"
+class="w-full bg-green-500 text-white p-3 rounded">
+Cadastrar
+</button>
+
+</div>
+
+<script type="module" src="js/auth.js"></script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Álbum da Copa</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+  <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-sm">
+
+    <h1 class="text-3xl font-bold text-center mb-6">
+      ⚽ Álbum da Copa
+    </h1>
+
+    <input
+      id="email"
+      type="email"
+      placeholder="Digite seu email"
+      class="w-full border rounded-lg p-3 mb-3"
+    >
+
+    <input
+      id="password"
+      type="password"
+      placeholder="Digite sua senha"
+      class="w-full border rounded-lg p-3 mb-4"
+    >
+
+    <button
+      id="btnLogin"
+      class="w-full bg-blue-600 text-white p-3 rounded-lg mb-2 hover:bg-blue-700"
+    >
+      Entrar
+    </button>
+
+    <button
+      id="btnCadastro"
+      class="w-full bg-green-600 text-white p-3 rounded-lg hover:bg-green-700"
+    >
+      Criar Conta
+    </button>
+
+    <p id="mensagem" class="text-center mt-4 text-sm"></p>
+
+  </div>
+
+  <script type="module" src="./js/auth.js"></script>
+
+</body>
+</html>
