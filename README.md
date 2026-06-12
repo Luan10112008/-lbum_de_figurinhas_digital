@@ -1,0 +1,1 @@
+# -lbum_de_figurinhas_digital
